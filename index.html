@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis's Portofolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devdennis.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <u class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </u>
+        </nav>
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Denis Istrate</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT-END DEVELOPER</p>
+        <img src="img/devdennis02.jpg" alt="A picture of me" class="intro__img">
+    </section>
+
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--services">What I am good at</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Web dev</h3>
+                <p>I self-taughted myself: HTML5, CSS, JavaScript, React, Bootstrap, NodeJS, WordPress, Git, Github. I am a junior, I don't excel in all of them, but <strong> I WILL one day.</strong> </p>
+            </div>
+
+
+            <div class="skill">
+                <h3>Googling</h3>
+                <p>You need to master this skill as a self-taught man haha. <strong>If you can't fix a bug, you didn't google enough</strong></p>
+            </div>
+
+
+            <div class="skill">
+                <h3>Gaming</h3>
+                <p>I do like to play video games, it relaxes me.. and I tend to excel at them. ;)</p>
+            </div>
+
+        </div>
+
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer based in Timisoara, Romania</p>
+
+        <div class="about-me__body">
+            <p>My name is Denis Istrate, I am 24 years old and I've been passionate about computers and the sience behind them. I am mainly self-taught, with a little formal training.</p>
+            <p>I am also a motivated junior web development with experience building elegant CSS, JavaScript websites looking for an opportunity to grow my front-end development and technical skills in an innovative environment.</p>
+        </div>
+        <img src="img/devdennis01.jpg" alt="Portrait picture of me" class="about-me__img">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="/img/project1.JPG" alt="My first build" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="/img/project2.JPG" alt="Weather app" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="/img/project3.png" alt="rating tool" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="mailto:denisistrate39@gmail.com" class="footer__link">denisistrate39@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/denis-istrate/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/denistr1997">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
